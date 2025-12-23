@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+}
+
+.form-container {
+  width: 500px;          
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgb(211, 232, 251);
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;         
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.form-row label {
+  width: 140px;          
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form-row input {
+  flex: 1px;               
+  padding: 10px;
+  border: 2px solid #010516;
+  border-radius: 4px;
+}
+
+.button {
+  margin-left: 140px;
+  padding: 8px 25px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
