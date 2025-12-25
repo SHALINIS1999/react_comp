@@ -47,7 +47,7 @@ function App() {
     // <BrowserRouter>
     <div>
       {/* <Accord/> */}
-      {/* <ApiCall/> */}
+      <ApiCall/>
       {/* <ApiCallHooks/> */}
       {/* <ApiCallTwo/> */}
       {/* <Badge/> */}
