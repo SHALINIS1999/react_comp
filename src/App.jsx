@@ -47,14 +47,14 @@ function App() {
     // <BrowserRouter>
     <div>
       {/* <Accord/> */}
-      <ApiCall/>
+      {/* <ApiCall/> */}
       {/* <ApiCallHooks/> */}
       {/* <ApiCallTwo/> */}
       {/* <Badge/> */}
       {/* <CountClass/> */}
       {/* <Counter/> */}
       {/* <DetailForm/> */}
-      {/* <DetailFormTwo/> */}
+      <DetailFormTwo/>
       {/* <ExamApi/> */}
       {/* <Food/> */}
       {/* <FormState/> */}
