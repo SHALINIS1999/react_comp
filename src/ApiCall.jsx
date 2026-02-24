@@ -4,11 +4,12 @@ function ApiCall() {
     const [productlist, setproductlist] = useState([])
 
     const handleapi = async () => {
+        
         let products = await fetch("https://fakestoreapi.com/products")
 
         let datas = await products.json()
 
-        { setproductlist(datas) }
+        setproductlist(datas) 
     }
 
     return (

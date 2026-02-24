@@ -4,12 +4,13 @@ import cart from "./assets/cartoon.webp"
 
 function ReactHookForm()
 {
-    const {register, handleSubmit} = useForm()
+  const {register, handleSubmit} = useForm()
 
   const onsubmit = (data)=>
   {
     console.log(data); 
   }
+  
     return(
         <div>
             <h1 style={{color: "blue", backgroundColor: "pink", textAlign: "center"}}>Hook Form</h1>

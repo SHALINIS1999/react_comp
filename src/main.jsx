@@ -6,8 +6,8 @@ import { CounterProvider } from './CounterContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-  <CounterProvider>
+  // <CounterProvider>
     <App />
-    </CounterProvider>
+    /* </CounterProvider> */
   /* </StrictMode>, */
 )

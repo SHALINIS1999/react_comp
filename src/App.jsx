@@ -12,7 +12,7 @@ import ExamApi from "./ExamApi";
 import Food from "./Food";
 import FormState from "./FormState";
 import Home from "./Home";
-import HooksExtra from "./HooksExtra";
+// import HooksExtra from "./HooksExtra";
 import LifeCycle from "./LifeCycle";
 import Movies from "./Movies";
 import Name from "./Name";
@@ -54,7 +54,7 @@ function App() {
       {/* <CountClass/> */}
       {/* <Counter/> */}
       {/* <DetailForm/> */}
-      <DetailFormTwo/>
+      {/* <DetailFormTwo/> */}
       {/* <ExamApi/> */}
       {/* <Food/> */}
       {/* <FormState/> */}

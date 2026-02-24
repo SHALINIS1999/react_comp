@@ -8,8 +8,6 @@ function DetailForm() {
     const [ishide, setishide] = useState(false)
 
     const handlename = (e) => {
-        console.log(e.target.value);
-
         setname(e.target.value)
     }
 

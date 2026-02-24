@@ -16,14 +16,14 @@ export default function HooksExtra() {
 
 
     // usememo example
-    // const[data1, setdata1] = useState(2)
-    // const[data2, setdata2] = useState(4)
-    // const heavycalculation = useMemo((a,b)=>
-    // {
-    //     console.log(a*b);
+    const[data1, setdata1] = useState(2)
+    const[data2, setdata2] = useState(4)
+    const heavycalculation = useMemo((a,b)=>
+    {
+        console.log(a*b);
 
-    // },[data1,data2])
-    // heavycalculation(2,4)
+    },[data1,data2])
+    heavycalculation(2,4)
 
 
     // usecallback example
@@ -48,7 +48,6 @@ export default function HooksExtra() {
 
     useEffect(() => {
         inputref.current.focus();
-
     }, []);
 
     return (

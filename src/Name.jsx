@@ -4,13 +4,13 @@ import "./name.css"
 function Name() {
     const [name, setname] = useState("Priya")
 
-    const change = () => {
+    const handlechange = () => {
         setname("Swetha")
     }
     return (
         <>
             <h1 className="change">Name : {name}</h1>
-            <button onClick={change}>Change</button>
+            <button onClick={handlechange}>Change</button>
         </>
     )
 }

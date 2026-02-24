@@ -27,8 +27,6 @@ function ApiCallHooks() {
                     <img height={200} width={200} src={test.image} />
                 </div>
             ))}
-
-
         </div>
     )
 }

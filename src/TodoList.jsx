@@ -35,7 +35,6 @@ export default function TodoList() {
         let senddata = await axios.post("http://localhost:3000/todoList", body);
 
         setinputtodo("")
-
         handleapiget()
     }
 
@@ -44,7 +43,6 @@ export default function TodoList() {
         let deletedata = await axios.delete("http://localhost:3000/todoList/" + id);
 
         handleapiget()
-
     }
 
     const handleedit = async (data) => {
